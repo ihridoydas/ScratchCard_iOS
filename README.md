@@ -1,0 +1,1 @@
+<img width="400" alt="Scratch_view_ios.gif" src="[https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3619500/4f9fbd56-c217-cce7-f4a6-17c87513c1a3.gif](https://github.com/ihridoydas/ScratchCard_iOS/blob/main/Scratch_view_ios.gif?raw=true)https://github.com/ihridoydas/ScratchCard_iOS/blob/main/Scratch_view_ios.gif?raw=true">
