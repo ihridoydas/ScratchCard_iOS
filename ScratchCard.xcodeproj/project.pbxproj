@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		867F6D462B32FFC2001C3308 /* ScratchCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6D452B32FFC2001C3308 /* ScratchCardApp.swift */; };
+		867F6D4A2B32FFC3001C3308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867F6D492B32FFC3001C3308 /* Assets.xcassets */; };
+		867F6D4D2B32FFC3001C3308 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867F6D4C2B32FFC3001C3308 /* Preview Assets.xcassets */; };
+		867F6D572B32FFC3001C3308 /* ScratchCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6D562B32FFC3001C3308 /* ScratchCardTests.swift */; };
+		867F6D612B32FFC4001C3308 /* ScratchCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6D602B32FFC4001C3308 /* ScratchCardUITests.swift */; };
+		867F6D632B32FFC4001C3308 /* ScratchCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6D622B32FFC4001C3308 /* ScratchCardUITestsLaunchTests.swift */; };
+		867F6D702B3300EB001C3308 /* ScratchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6D6F2B3300EB001C3308 /* ScratchCardView.swift */; };
+		867F6D722B330160001C3308 /* ScratchCardCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6D712B330160001C3308 /* ScratchCardCanvasView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		867F6D532B32FFC3001C3308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 867F6D3A2B32FFC2001C3308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867F6D412B32FFC2001C3308;
+			remoteInfo = ScratchCard;
+		};
+		867F6D5D2B32FFC4001C3308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 867F6D3A2B32FFC2001C3308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867F6D412B32FFC2001C3308;
+			remoteInfo = ScratchCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		867F6D422B32FFC2001C3308 /* ScratchCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		867F6D452B32FFC2001C3308 /* ScratchCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardApp.swift; sourceTree = "<group>"; };
+		867F6D492B32FFC3001C3308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		867F6D4C2B32FFC3001C3308 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		867F6D522B32FFC3001C3308 /* ScratchCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		867F6D562B32FFC3001C3308 /* ScratchCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardTests.swift; sourceTree = "<group>"; };
+		867F6D5C2B32FFC4001C3308 /* ScratchCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		867F6D602B32FFC4001C3308 /* ScratchCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardUITests.swift; sourceTree = "<group>"; };
+		867F6D622B32FFC4001C3308 /* ScratchCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		867F6D6F2B3300EB001C3308 /* ScratchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardView.swift; sourceTree = "<group>"; };
+		867F6D712B330160001C3308 /* ScratchCardCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardCanvasView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		867F6D3F2B32FFC2001C3308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867F6D4F2B32FFC3001C3308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867F6D592B32FFC4001C3308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		867F6D392B32FFC2001C3308 = {
+			isa = PBXGroup;
+			children = (
+				867F6D442B32FFC2001C3308 /* ScratchCard */,
+				867F6D552B32FFC3001C3308 /* ScratchCardTests */,
+				867F6D5F2B32FFC4001C3308 /* ScratchCardUITests */,
+				867F6D432B32FFC2001C3308 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		867F6D432B32FFC2001C3308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				867F6D422B32FFC2001C3308 /* ScratchCard.app */,
+				867F6D522B32FFC3001C3308 /* ScratchCardTests.xctest */,
+				867F6D5C2B32FFC4001C3308 /* ScratchCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		867F6D442B32FFC2001C3308 /* ScratchCard */ = {
+			isa = PBXGroup;
+			children = (
+				867F6D452B32FFC2001C3308 /* ScratchCardApp.swift */,
+				867F6D6F2B3300EB001C3308 /* ScratchCardView.swift */,
+				867F6D492B32FFC3001C3308 /* Assets.xcassets */,
+				867F6D4B2B32FFC3001C3308 /* Preview Content */,
+				867F6D712B330160001C3308 /* ScratchCardCanvasView.swift */,
+			);
+			path = ScratchCard;
+			sourceTree = "<group>";
+		};
+		867F6D4B2B32FFC3001C3308 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				867F6D4C2B32FFC3001C3308 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		867F6D552B32FFC3001C3308 /* ScratchCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				867F6D562B32FFC3001C3308 /* ScratchCardTests.swift */,
+			);
+			path = ScratchCardTests;
+			sourceTree = "<group>";
+		};
+		867F6D5F2B32FFC4001C3308 /* ScratchCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				867F6D602B32FFC4001C3308 /* ScratchCardUITests.swift */,
+				867F6D622B32FFC4001C3308 /* ScratchCardUITestsLaunchTests.swift */,
+			);
+			path = ScratchCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		867F6D412B32FFC2001C3308 /* ScratchCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867F6D662B32FFC4001C3308 /* Build configuration list for PBXNativeTarget "ScratchCard" */;
+			buildPhases = (
+				867F6D3E2B32FFC2001C3308 /* Sources */,
+				867F6D3F2B32FFC2001C3308 /* Frameworks */,
+				867F6D402B32FFC2001C3308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScratchCard;
+			productName = ScratchCard;
+			productReference = 867F6D422B32FFC2001C3308 /* ScratchCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		867F6D512B32FFC3001C3308 /* ScratchCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867F6D692B32FFC4001C3308 /* Build configuration list for PBXNativeTarget "ScratchCardTests" */;
+			buildPhases = (
+				867F6D4E2B32FFC3001C3308 /* Sources */,
+				867F6D4F2B32FFC3001C3308 /* Frameworks */,
+				867F6D502B32FFC3001C3308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				867F6D542B32FFC3001C3308 /* PBXTargetDependency */,
+			);
+			name = ScratchCardTests;
+			productName = ScratchCardTests;
+			productReference = 867F6D522B32FFC3001C3308 /* ScratchCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		867F6D5B2B32FFC4001C3308 /* ScratchCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867F6D6C2B32FFC4001C3308 /* Build configuration list for PBXNativeTarget "ScratchCardUITests" */;
+			buildPhases = (
+				867F6D582B32FFC4001C3308 /* Sources */,
+				867F6D592B32FFC4001C3308 /* Frameworks */,
+				867F6D5A2B32FFC4001C3308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				867F6D5E2B32FFC4001C3308 /* PBXTargetDependency */,
+			);
+			name = ScratchCardUITests;
+			productName = ScratchCardUITests;
+			productReference = 867F6D5C2B32FFC4001C3308 /* ScratchCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		867F6D3A2B32FFC2001C3308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					867F6D412B32FFC2001C3308 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					867F6D512B32FFC3001C3308 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 867F6D412B32FFC2001C3308;
+					};
+					867F6D5B2B32FFC4001C3308 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 867F6D412B32FFC2001C3308;
+					};
+				};
+			};
+			buildConfigurationList = 867F6D3D2B32FFC2001C3308 /* Build configuration list for PBXProject "ScratchCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 867F6D392B32FFC2001C3308;
+			productRefGroup = 867F6D432B32FFC2001C3308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				867F6D412B32FFC2001C3308 /* ScratchCard */,
+				867F6D512B32FFC3001C3308 /* ScratchCardTests */,
+				867F6D5B2B32FFC4001C3308 /* ScratchCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		867F6D402B32FFC2001C3308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867F6D4D2B32FFC3001C3308 /* Preview Assets.xcassets in Resources */,
+				867F6D4A2B32FFC3001C3308 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867F6D502B32FFC3001C3308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867F6D5A2B32FFC4001C3308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		867F6D3E2B32FFC2001C3308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867F6D462B32FFC2001C3308 /* ScratchCardApp.swift in Sources */,
+				867F6D702B3300EB001C3308 /* ScratchCardView.swift in Sources */,
+				867F6D722B330160001C3308 /* ScratchCardCanvasView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867F6D4E2B32FFC3001C3308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867F6D572B32FFC3001C3308 /* ScratchCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867F6D582B32FFC4001C3308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867F6D612B32FFC4001C3308 /* ScratchCardUITests.swift in Sources */,
+				867F6D632B32FFC4001C3308 /* ScratchCardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		867F6D542B32FFC3001C3308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 867F6D412B32FFC2001C3308 /* ScratchCard */;
+			targetProxy = 867F6D532B32FFC3001C3308 /* PBXContainerItemProxy */;
+		};
+		867F6D5E2B32FFC4001C3308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 867F6D412B32FFC2001C3308 /* ScratchCard */;
+			targetProxy = 867F6D5D2B32FFC4001C3308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		867F6D642B32FFC4001C3308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		867F6D652B32FFC4001C3308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		867F6D672B32FFC4001C3308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScratchCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ihridoydas.ScratchCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		867F6D682B32FFC4001C3308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScratchCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ihridoydas.ScratchCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		867F6D6A2B32FFC4001C3308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ihridoydas.ScratchCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScratchCard";
+			};
+			name = Debug;
+		};
+		867F6D6B2B32FFC4001C3308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ihridoydas.ScratchCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScratchCard";
+			};
+			name = Release;
+		};
+		867F6D6D2B32FFC4001C3308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ihridoydas.ScratchCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScratchCard;
+			};
+			name = Debug;
+		};
+		867F6D6E2B32FFC4001C3308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ihridoydas.ScratchCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScratchCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		867F6D3D2B32FFC2001C3308 /* Build configuration list for PBXProject "ScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867F6D642B32FFC4001C3308 /* Debug */,
+				867F6D652B32FFC4001C3308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867F6D662B32FFC4001C3308 /* Build configuration list for PBXNativeTarget "ScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867F6D672B32FFC4001C3308 /* Debug */,
+				867F6D682B32FFC4001C3308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867F6D692B32FFC4001C3308 /* Build configuration list for PBXNativeTarget "ScratchCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867F6D6A2B32FFC4001C3308 /* Debug */,
+				867F6D6B2B32FFC4001C3308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867F6D6C2B32FFC4001C3308 /* Build configuration list for PBXNativeTarget "ScratchCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867F6D6D2B32FFC4001C3308 /* Debug */,
+				867F6D6E2B32FFC4001C3308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 867F6D3A2B32FFC2001C3308 /* Project object */;
+}
