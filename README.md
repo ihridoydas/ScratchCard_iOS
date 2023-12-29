@@ -7,7 +7,8 @@
 |-----------------------------------------------------------------------|
 | ![app-settings](Scratch_view_ios.gif)        |
 
-
+You can try also in jetpack compose.
+https://qiita.com/ihridoydas/items/8db6e5023fbfa2031274
 
 ## License
 ```
